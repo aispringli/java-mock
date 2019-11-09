@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/lop?useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+    username: mysql
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
